@@ -23,4 +23,4 @@ def start(message):
     )
 
 print("Bot is running...")
-bot.polling()
+bot.infinity_polling(timeout=10, long_polling_timeout=5)
